@@ -1,0 +1,16 @@
+Original patch:
+
+  commit c11c3b56818bcaf1acea6cb2a9a68fbca644f968
+  Author: Junio C Hamano <gitster@pobox.com>
+  Date:   Sun Feb 3 17:02:28 2008 -0800
+
+    Documentation/SubmittingPatches: What's Acked-by and Tested-by?
+
+    We used to talk about "internal company procedures", but this
+    document is about submitting patches to the git mailing list.
+
+    More useful information is when to say Acked-by: and Tested-by:.
+
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+  Repository: git://git.kernel.org/pub/scm/git/git.git
