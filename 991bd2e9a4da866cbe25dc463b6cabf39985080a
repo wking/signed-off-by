@@ -1,0 +1,14 @@
+Original patch:
+
+  commit 4bd146fffe87698377684cf045b481bc464bde22
+  Author: Linus Torvalds <torvalds@ppc970.osdl.org>
+  Date:   Mon May 31 22:13:52 2004 -0700
+
+    Start documenting the sign-off procedure in SubmittingPatches
+
+    We already have over 200 sign-off lines in the kernel, so
+    let's document the thing, even if discussion may still be
+    on-going.
+
+  Repository: https://git.kernel.org/pub/scm/linux/kernel/git/tglx/history.git
+  Gmane: http://permalink.gmane.org/gmane.linux.kernel.commits.head/33254
