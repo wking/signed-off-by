@@ -1,0 +1,15 @@
+Original patch:
+
+  commit adbd5886da5f467148b26cca3728ab0e672b3fcc
+  Author: Willy Tarreau <w@1wt.eu>
+  Date:   Tue Jun 3 00:20:28 2008 +0200
+
+    doc: add suggestions about good practises for maintainers
+
+    Suggest how to deal with patch modifications caused by
+    merging or back-porting when you're a maintainer.
+
+    Signed-off-by: Willy Tarreau <w@1wt.eu>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+  Repository: git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
