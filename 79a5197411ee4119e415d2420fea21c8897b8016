@@ -1,0 +1,17 @@
+Original patch:
+
+  commit af45f32d25cc1e374184675eadc9f740221d8392
+  Author: Greg KH <greg@kroah.com>
+  Date:   Tue Sep 12 20:35:52 2006 -0700
+
+    [PATCH] We can not allow anonymous contributions to the kernel
+
+    The DCO does not mean anything if we allow anonymous contributors to the
+    kernel.  As this is an open source project, we need to do everything in the
+    open.
+
+    Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>
+    Signed-off-by: Andrew Morton <akpm@osdl.org>
+    Signed-off-by: Linus Torvalds <torvalds@osdl.org>
+
+  Repository: git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
