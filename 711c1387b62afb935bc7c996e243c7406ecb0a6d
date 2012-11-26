@@ -1,0 +1,23 @@
+Original patch:
+
+  commit 0353a0c4ec91cf2d0a8e209025aa2e1909d05f19
+  Author: Jim Meyering <jim@meyering.net>
+  Date:   Wed Apr 13 17:39:40 2011 +0200
+
+    remove doubled words, e.g., s/to to/to/, and fix related typos
+
+    I found that some doubled words had snuck back into projects from which
+    I'd already removed them, so now there's a "syntax-check" makefile rule in
+    gnulib to help prevent recurrence.
+
+    Running the command below spotted a few in git, too:
+
+      git ls-files | xargs perl -0777 -n \
+        -e 'while (/\b(then?|[iao]n|i[fst]|but|f?or|at|and|[dt])\s+\1\b/gims)' \
+        -e '{$n=($` =~ tr/\n/\n/ + 1); ($v=$&)=~s/\n/\\n/g;' \
+        -e 'print "$ARGV:$n:$v\n"}'
+
+    Signed-off-by: Jim Meyering <meyering@redhat.com>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+  Repository: git://git.kernel.org/pub/scm/git/git.git
