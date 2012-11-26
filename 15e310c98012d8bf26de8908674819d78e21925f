@@ -1,0 +1,13 @@
+Original patch:
+
+  commit 075b845a8572006d8c80f8500a0652166a0fba00
+  Author: Linus Torvalds <torvalds@ppc970.osdl.org>
+  Date:   Mon Apr 11 10:18:16 2005 -0700
+
+    Add a COPYING notice, making it explicit that the license is GPLv2.
+
+    Let's bite the v3 bullet when it comes, although if people want to,
+    they can just state "or later at discretion of Linus" in their copyright
+    messages.
+
+  Repository: git://git.kernel.org/pub/scm/git/git.git
