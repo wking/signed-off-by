@@ -1,0 +1,13 @@
+Original patch:
+
+  commit cbd83da82b15292337ff2b71e619c9a3a95f6d80
+  Author: Linus Torvalds <torvalds@ppc970.osdl.org>
+  Date:   Mon Jun 13 17:51:55 2005 -0700
+
+    Update DCO ("signoff") rules to 1.1
+
+    This adds a clause that notes explicitly that the person doing the
+    sign-off knows that the project (and his sign-off) is public and will
+    possibly get archived and re-distributed.
+
+  Repository: git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
