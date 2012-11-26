@@ -1,0 +1,16 @@
+Original patch:
+
+  commit 69945602f95710f16ab4a5f8edfee38dc65555fa
+  Author: Paolo Ciarrocchi <paolo.ciarrocchi@gmail.com>
+  Date:   Tue Nov 21 19:55:20 2006 +0100
+
+    Teach SubmittingPatches about git-commit -s
+
+    As discussed on git mailing list let's teach the reader about
+    the possiblity to have automatically signed off the commit running
+    the git-commit -s command
+
+    Signed-off-by: Paolo Ciarrocchi <paolo.ciarrocchi@gmail.com>
+    Signed-off-by: Junio C Hamano <junkio@cox.net>
+
+  Repository: git://git.kernel.org/pub/scm/git/git.git
