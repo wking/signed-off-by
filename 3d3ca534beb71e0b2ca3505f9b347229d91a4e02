@@ -1,0 +1,18 @@
+Original patch:
+
+  commit 95b7a41a80e56e3df904a2080d0665565c231272
+  Author: Ramkumar Ramachandra <artagnon@gmail.com>
+  Date:   Sat Oct 2 10:07:43 2010 +0530
+
+    SubmittingPatches: Document some extra tags used in commit messages
+
+    Document the meanings of the tags "Reported-by:", "Acked-by:",
+    "Reviewed-by:" and "Tested-by:" clearly. Also mention that the user is
+    free to use any custom tags.
+
+    Helped-by: Jonathan Nieder <jrnieder@gmail.com>
+    Liked-by: Sverre Rabbelier <srabbelier@gmail.com>
+    Signed-off-by: Ramkumar Ramachandra <artagnon@gmail.com>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+  Repository: git://git.kernel.org/pub/scm/git/git.git
