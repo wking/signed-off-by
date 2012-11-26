@@ -1,0 +1,15 @@
+Original patch:
+
+  commit db12fb833a88c5114d70dcafebd33d460a09d593
+  Author: Zac Storer <zac.3.14159@gmail.com>
+  Date:   Sat Aug 13 12:34:45 2011 -0700
+
+    Documentation: fix spelling error in SubmittingPatches
+
+    Fixed a spelling error.
+
+    Signed-off-by: Zac Storer <zac.3.14159@gmail.com>
+    Signed-off-by: Randy Dunlap <rdunlap@xenotime.net>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+  Repository: git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
