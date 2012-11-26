@@ -1,0 +1,17 @@
+Original patch:
+
+  commit 703601d6780c32d33dadf19b2b367f2f79e1e34c
+  Author: Junio C Hamano <gitster@pobox.com>
+  Date:   Fri Jan 15 21:38:34 2010 -0800
+
+    Update COPYING with GPLv2 with new FSF address
+
+    The mailing address of FSF changed quite a while ago.  Also the expansion
+    of the acronym LGPL (which we don't use) is "Lesser GPL" not "Library GPL"
+    these days in recent copies of GPLv2.  Update the copy we have with a
+    fresh download of <http://www.gnu.org/licenses/gpl-2.0.txt>.
+
+    This incidentally removes form-feeds in the text we retained for all these
+    years.
+
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
