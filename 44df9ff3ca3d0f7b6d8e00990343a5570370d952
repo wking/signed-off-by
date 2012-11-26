@@ -1,0 +1,14 @@
+Original patch:
+
+  commit 9fd5559c1f916f284b5b0866148e076866de6f99
+  Author: Alexey Dobriyan <adobriyan@gmail.com>
+  Date:   Sat Jun 25 14:59:34 2005 -0700
+
+    [PATCH] DCO: use IANA-reserved second level domain name
+
+    Signed-off-by: Alexey Dobriyan <adobriyan@gmail.com>
+    Signed-off-by: Domen Puncer <domen@coderock.org>
+    Signed-off-by: Andrew Morton <akpm@osdl.org>
+    Signed-off-by: Linus Torvalds <torvalds@osdl.org>
+
+  Repository: git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
