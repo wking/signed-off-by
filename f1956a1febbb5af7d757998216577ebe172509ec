@@ -1,0 +1,17 @@
+Original patch:
+
+  commit 672752470c85c8dc3dd9b49f72063a99f8475b4a
+  Author: Miklos Vajna <vmiklos@frugalware.org>
+  Date:   Sat Dec 20 01:52:17 2008 +0100
+
+    SubmittingPatches: mention the usage of real name in Signed-off-by: lines
+
+    Especially with something that is supposed to hopefully have some legal
+    value down the line if somebody starts making noises, it really would be
+    nice to have a real person to associate things with. Suggest this in the
+    SubmittingPatches document.
+
+    Signed-off-by: Miklos Vajna <vmiklos@frugalware.org>
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+  Repository: git://git.kernel.org/pub/scm/git/git.git
