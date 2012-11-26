@@ -16,3 +16,32 @@ project-agnostic manner.  To incorporate into your own project,
    list.
 
 3. Prosper.
+
+Branches
+========
+
+To make it easier to merge bits and pieces of this documentation into
+your project, I've split the contents into several branches:
+
+master:
+  This branch, mostly a container for this `README`.
+
+signed-off-by:
+  `Documentation/SubmittingPatches`, this is what you want in your
+  project.
+
+copying:
+  The license under which `Documentation/SubmittingPatches` is
+  distributed.  Check here to determine if you are allowed to merge
+  `signed-off-by` into your project.
+
+contributing:
+  An example `CONTRIBUTING` file in case your license does not allow
+  you to merge `signed-off-by`.  The contributing file is released
+  under the very permissive CC0 1.0 unported.
+
+license:
+  The text of all the licenses related to this repository.  Inludes
+  `GPLv2-exact` for `SubmittingPatches`, `CC0-1.0` for `CONTRIBUTING`,
+  and `CC-BY-3.0` for `CC0-1.01`.  It also includes the short,
+  human-readable versions of the CC licenses.
