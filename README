@@ -1,0 +1,18 @@
+Do you want explicit licensing and publishing permissions for each
+patch you incorperate into your project?  Do you miss the simplicity
+of Signed-off-by tags you use when developing the Linux kernel and
+Git?  This repository extracts the Developer Certificate of Origin and
+Signed-off-by documentation from both projects, and presents them in a
+project-agnostic manner.  To incorporate into your own project,
+
+1. Merge the documentation into your project:
+
+    $ git remote add s-o-b git://tremily.us/signed-off-by.git
+    $ git merge s-o-b/signed-off-by
+
+2. Tell your developers by pointing to
+   `Documentation/SubmittingPatches` from your `README` or
+   `CONTRIBUTING` documentation and sending a message to your mailing
+   list.
+
+3. Prosper.
