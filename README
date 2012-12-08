@@ -8,6 +8,7 @@ project-agnostic manner.  To incorporate into your own project,
 1. Merge the documentation into your project:
 
     $ git remote add s-o-b git://tremily.us/signed-off-by.git
+    $ git fetch s-o-b
     $ git merge s-o-b/signed-off-by
 
 2. Tell your developers by pointing to
