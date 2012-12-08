@@ -40,6 +40,10 @@ contributing:
   you to merge `signed-off-by`.  The contributing file is released
   under the very permissive CC0 1.0 unported.
 
+contributing-github:
+  A version of the `contributing` branch adapted for GitHub-based
+  projects.
+
 license:
   The text of all the licenses related to this repository.  Inludes
   `GPLv2-exact` for `SubmittingPatches`, `CC0-1.0` for `CONTRIBUTING`,
