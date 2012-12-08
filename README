@@ -54,7 +54,10 @@ Git), I've cherry-picked the relevant commits from the project
 repositories to preserve commit metadata.  For each of these commits,
 I've attached a note with the commit hash, original commit message,
 and original commit repository.  Fetch the `refs/notes/commits`
-reference from my public repository if you want these notes.
+reference from my public repository if you want these notes:
+
+  $ git config --add remote.origin.fetch '+refs/notes/*:refs/notes/*'
+  $ git fetch origin
 
 If I altered the original patch by removing context, I've added my
 s-o-b.  Otherwise the original patch applied cleanly, and I left my
