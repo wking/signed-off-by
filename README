@@ -1,5 +1,5 @@
 Do you want explicit licensing and publishing permissions for each
-patch you incorperate into your project?  Do you miss the simplicity
+patch you incorporate into your project?  Do you miss the simplicity
 of Signed-off-by tags you use when developing the Linux kernel and
 Git?  This repository extracts the Developer Certificate of Origin and
 Signed-off-by documentation from both projects, and presents them in a
@@ -46,7 +46,7 @@ contributing-github:
   projects.
 
 license:
-  The text of all the licenses related to this repository.  Inludes
+  The text of all the licenses related to this repository.  Includes
   `GPLv2-exact` for `SubmittingPatches`, `CC0-1.0` for `CONTRIBUTING`,
   and `CC-BY-3.0` for `CC0-1.01`.  It also includes the short,
   human-readable versions of the CC licenses.
