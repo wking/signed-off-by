@@ -4,4 +4,8 @@ the Linux kernel project.  Because the documentation for this
 procedure is licensed under the GPLv2, we have chosen not to include
 it in our project directly.  Instead, please see:
 
-  http://git.tremily.us/?p=signed-off-by.git;a=blob;f=Documentation/SubmittingPatches;h=34055986ab836553896f091225448c448a4cc62c;hb=refs/heads/signed-off-by
+* The developer-certificate-of-origin text (what you're signing).
+* The patch-submission notes [1] (using Signed-off-by to sign the
+  DCO).
+
+[1]: http://git.tremily.us/?p=signed-off-by.git;a=blob;f=Documentation/SubmittingPatches;h=0da865bf9e4cafe77a45ac158642bf839316f8df;hb=refs/heads/signed-off-by
