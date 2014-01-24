@@ -28,8 +28,10 @@ master:
   This branch, mostly a container for this `README`.
 
 signed-off-by:
-  `Documentation/SubmittingPatches`, this is what you want in your
-  project.
+  `Documentation/developer-certificate-of-origin` contains the full
+  text of the DCO (verbatim copies only), and
+  `Documentation/SubmittingPatches` (`GPLv2-linux`) explains how to
+  use the DCO with `Signed-off-by` tags.
 
 copying:
   The license under which `Documentation/SubmittingPatches` is
