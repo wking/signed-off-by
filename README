@@ -50,7 +50,7 @@ contributing-github:
 license:
   The text of all the licenses related to this repository.  Includes
   `GPLv2-exact` for `SubmittingPatches`, `CC0-1.0` for `CONTRIBUTING`,
-  and `CC-BY-3.0` for `CC0-1.01`.  It also includes the short,
+  and `CC-BY-3.0` for `CC0-1.0`.  It also includes the short,
   human-readable versions of the CC licenses.
 
 Borrowed commits
