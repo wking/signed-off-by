@@ -13,6 +13,10 @@ project-agnostic manner.  To incorporate into your own project,
 
      $ git pull --allow-unrelated-histories git://tremily.us/signed-off-by.git contributing-github
 
+   If you like signing merges, you may want to run:
+
+     $ git commit --amend --signoff --no-edit
+
 2. Tell your developers by pointing to
    `Documentation/SubmittingPatches` from your `README` or
    `CONTRIBUTING` documentation and sending a message to your mailing
