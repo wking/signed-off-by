@@ -5,11 +5,13 @@ Git?  This repository extracts the Developer Certificate of Origin and
 Signed-off-by documentation from both projects, and presents them in a
 project-agnostic manner.  To incorporate into your own project,
 
-1. Merge the documentation into your project:
+1. Pull the documentation into your project:
 
-    $ git remote add s-o-b git://tremily.us/signed-off-by.git
-    $ git fetch s-o-b
-    $ git merge s-o-b/signed-off-by
+     $ git pull --allow-unrelated-histories git://tremily.us/signed-off-by.git signed-off-by
+
+   Alternatively, you may pull in one of the other branches listed below, for example:
+
+     $ git pull --allow-unrelated-histories git://tremily.us/signed-off-by.git contributing-github
 
 2. Tell your developers by pointing to
    `Documentation/SubmittingPatches` from your `README` or
